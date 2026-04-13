@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Blog</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.post:hover {
+    transform: scale(1.02);
+    background: #e8f0fe;
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.meta {
+    color: gray;
+    font-size: 14px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>My Blog</h1>
+</header>
+
+<div class="container">
+
+    <div class="post">
+        <h2>Post Title 1</h2>
+        <p class="meta">By Author | Jan 1, 2026</p>
+        <p>This is a short description of the blog post.</p>
+    </div>
+
+    <div class="post">
+        <h2>Post Title 2</h2>
+        <p class="meta">By Author | Feb 5, 2026</p>
+        <p>This is another blog summary content.</p>
+    </div>
+
+    <div class="post">
+        <h2>Post Title 3</h2>
+        <p class="meta">By Author | Mar 10, 2026</p>
+        <p>This is the third blog post description.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+Output :
+My Blog
+----------------------------------
+
+[ Post Title 1 ]
+By Author | Date
+Short description...
+
+[ Post Title 2 ]
+By Author | Date
+Short description...
+
+[ Post Title 3 ]
+By Author | Date
+Short description...
